@@ -195,7 +195,7 @@ function onKeyDown(event){
 }
 
 
-// ---------------Click event---------------
+// Click event
 
 let leftBtn = document.querySelector("#btn-left");
 let rightBtn = document.querySelector("#btn-right");
@@ -239,7 +239,7 @@ function upButtonTouch(){
     draw();
 }
 
-// ---------------click event end -------------------
+// click event end 
 
 function moveTetrominoDown(){
     tetromino.row += 1;
@@ -285,7 +285,7 @@ function isOutsideOfGameBoard(row, column){
 function hasCollisions(row, column){
     return playfield[tetromino.row + row]?.[tetromino.column + column]
 }
-// ------------Timer-----------
+// Timer
 
 
 function moveDown(){

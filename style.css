@@ -8,7 +8,7 @@ html{
     height: 100%;
 }
 body{
-    background: linear-gradient(0deg, rgba(254,127,45,1) 2%, rgba(206,255,26,1) 30%, rgba(27,231,255,1) 70%, rgba(254,100,163,1) 98%);
+    background: linear-gradient(0deg, rgb(66, 253, 91) 30%, rgb(27, 171, 255) 70%);
     height: 100%;
     user-select: none;
     display: flex;
@@ -73,7 +73,7 @@ h1{
 }
 
 .tetris .O{
-    background-color: #CEFF1A;
+    background-color: #FDCA40;
 }
 
 .tetris .L{
@@ -81,7 +81,7 @@ h1{
 }
 
 .tetris .I{
-    background-color: #FE64A3;
+    background-color: #ed3847;
 }
 
 .tetris .T{
@@ -89,22 +89,10 @@ h1{
 }
 
 .tetris .Z{
-    background-color: #06D6A0;
-}
-
-.tetris .X{
-    background-color: #FDCA40;
-}
-
-.tetris .D{
     background-color: #1BE7FF;
 }
 
-.tetris .B{
-    background-color: #ed3847;
-}
-
-/* buttons------------------------------ */
+/* buttons */
 .button-container{
     display: none;
     justify-content: center;
@@ -181,7 +169,7 @@ h1{
   height: 2px;
   display: block;
   content: "";
-  background: linear-gradient(-90deg, #ff9100 0%, #f10366 50%, #6173ff 100%);
+  background: linear-gradient(-90deg, #88ff00 100%);
   margin-bottom: -6px;
   margin-top: 1px;
 }
@@ -231,7 +219,7 @@ header p{
 }
 
 }
-/* ---------------Media end -------------- */
+/* Media end */
 
 .game-over{
     position: fixed;
@@ -253,17 +241,17 @@ header p{
     line-height: 100px;
     text-shadow:
     0 0 7px #fff,
-    0 0 10px #AF40FF,
-    0 0 21px #AF40FF,
-    0 0 42px #5B42F3,
-    0 0 82px #5B42F3,
-    0 0 92px #00DDEB,
-    0 0 102px #00DDEB,
-    0 0 151px #00DDEB;
+    0 0 10px #50ff40,
+    0 0 21px #86ff40,
+    0 0 42px #42f342,
+    0 0 82px #42f34b,
+    0 0 92px #08eb00,
+    0 0 102px #00eb0c,
+    0 0 151px #00eb14;
 }
 
 
-/* ----------button 2----------- */
+/* button 2 */
 
 .restartBtn {
     width: 160px;
@@ -281,12 +269,12 @@ header p{
     transition: all .4s ease-in-out;    
     background-image: linear-gradient(
         to right,
-        #6253e1,
-        #852d91,
-        #a3a1ff,
-        #f24645
+        #53e15a,
+        #39912d,
+        #a1ffa6,
+        #53f245
       );
-    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+    box-shadow: 0 4px 15px 0 rgba(56, 161, 52, 0.75);
 }
   
 .restartBtn:hover {
